@@ -2,7 +2,7 @@
 import { Icon } from "@iconify/react";
 
 // Navbar Logo image (add your image to the src/images directory and uncomment the line below to import your image)
-// import newLogo from "./images/yourFileName"
+import newLogo from "./images/final.png"
 
 // Hero Images (add your images to the /images directory with the same names)
 import HeroLight from "./images/hero-light.jpg";
@@ -18,7 +18,7 @@ import Logo from "./images/logo.svg";
 export const githubUsername = "genai4africa";
 
 // Navbar Logo image
-export const navLogo = null;
+export const navLogo = newLogo;
 
 /* Main
  ************************************************************** 
