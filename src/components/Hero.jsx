@@ -6,7 +6,7 @@ import PropTypes from "prop-types";
 // Icons
 import { Icon } from "@iconify/react";
 // Images
-import Logo from "../images/logo.svg";
+import Logo from "../images/final.png";
 import { Light, Dark } from "../config";
 // Components
 import { useErrorBoundary } from "react-error-boundary";
@@ -107,7 +107,7 @@ const Hero = ({ name }) => {
         <Row className="align-items-center text-center">
           <Col>
             <h1 className="mb-3 display-3 title">
-              {name === null ? "null" : name}
+              {name === null ? "GenAI4Africa" : name}
             </h1>
             <div className="d-flex align-items-center justify-content-center">
               <SocialLinks />
