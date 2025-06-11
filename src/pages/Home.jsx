@@ -18,7 +18,7 @@ const Home = () => {
   const { data: userData } = useGetUsersQuery();
 
   React.useEffect(() => {
-    updateTitle(`${userData.name} | Portfolio`);
+    updateTitle(`${userData.name} | GenAi4Africa`);
   }, [userData]);
 
   return (
