@@ -33,7 +33,7 @@ const AboutMe = ({ avatar_url, bio, moreInfo }) => {
       <StyledAboutMe className="section">
         <Container>
           <Container className="d-flex justify-content-center">
-            <Title size={"h2"} text={"About Me"} />
+            <Title size={"h2"} text={"About Us"} />
           </Container>
           <Row className="align-items-center mt-5">
             <Col className="d-flex flex-column text-center">
@@ -42,15 +42,7 @@ const AboutMe = ({ avatar_url, bio, moreInfo }) => {
                 {moreInfo && <p>{moreInfo}</p>}
               </Container>
             </Col>
-            <Col className="d-none d-md-block text-center">
-              <img
-                src={avatar_url}
-                alt="GitHub Avatar"
-                loading="lazy"
-                className="mx-auto rounded-circle border border-primary-subtle"
-                style={{ width: "15rem", height: "15rem" }}
-              />
-            </Col>
+            
           </Row>
         </Container>
       </StyledAboutMe>
