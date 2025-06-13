@@ -18,20 +18,32 @@ const Skills = () => {
       <section className="section">
         <Container className="text-center">
           <Container className="d-flex justify-content-center">
-            <Title size={"h2"} text={"Skills"} />
+            <Title size={"h2"} text={"Models"} />
           </Container>
           <Row className="mt-3 align-items-center">
-            {skillData.map((skills) => {
-              return (
-                <Col xs={4} key={skills.id} className="my-md-5">
-                  <figure>
-                    {skills.skill}
-                    <figcaption>{skills.name}</figcaption>
-                  </figure>
-                </Col>
-              );
-            })}
-          </Row>
+  {skillData.map((skills) => (
+    <Col xs={4} key={skills.id} className="my-md-5">
+      {skills.link ? (
+        <a
+          href={skills.link}
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ textDecoration: "none", color: "inherit" }}
+        >
+          <figure>
+            {skills.skill}
+            <figcaption>{skills.name}</figcaption>
+          </figure>
+        </a>
+      ) : (
+        <figure>
+          {skills.skill}
+          <figcaption>{skills.name}</figcaption>
+        </figure>
+      )}
+    </Col>
+  ))}
+</Row>
           {resume && (
             <a href={resume}>
               <Button
