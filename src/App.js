@@ -27,6 +27,7 @@ import { Element } from "react-scroll";
 import { Container } from "react-bootstrap";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
+//import Publications from "./components/Publications";
 // Config
 import { footerTheme, navLogo } from "./config";
 // Util

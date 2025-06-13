@@ -99,6 +99,29 @@ export const skillData = [
     link: "https://github.com/genai4africa", // Example GitHub org
   },
 ];
+export const publicationData = [
+  {
+    id: 1,
+    title: "EthioLLM: Multilingual Large Language Models for Ethiopian Languages with Task Evaluation",
+    link: "https://aclanthology.org/2024.lrec-main.561/"
+  },
+  {
+    id: 2,
+    title: "AfriSenti: A Twitter Sentiment Analysis Benchmark for African Languages",
+    link: "https://aclanthology.org/2023.emnlp-main.862/"
+  },
+  {
+    id: 3,
+    title: "AfriHate: A Multilingual Collection of Hate Speech and Abusive Language Datasets for African Languages",
+    link: "https://aclanthology.org/2025.naacl-long.92/"
+  },
+  {
+    id: 4,
+    title: "The State of Large Language Models for African Languages: Progress and Challenges",
+    link: "https://arxiv.org/abs/2506.02280"
+  }
+];
+
 
 // Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
 export const resume = null;

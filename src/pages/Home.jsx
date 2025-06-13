@@ -6,6 +6,7 @@ import Hero from "../components/Hero";
 import AboutMe from "../components/AboutMe";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
+import Publications from "../components/Publications"; // ✅ Add this line
 import Contact from "../components/Contact";
 import BackToTop from "../components/BackToTop";
 // Config
@@ -32,6 +33,7 @@ const Home = () => {
         />
         <Skills />
         <Projects filteredProjects={filteredProjects} />
+        <Publications />
         <Contact />
       </main>
       <BackToTop />
