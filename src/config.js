@@ -58,9 +58,9 @@ export const skillData = [
   },
   {
     id: 3,
-    skill: <Icon icon="fa6-brands:js" className="display-4" />,
-    name: "JavaScript",
-    link: null,
+    skill: <img src={newLogo} alt="Custom Icon" style={{ width: "50px", height: "60px" }} />,
+    name: "AfriHate",
+    link: "https://huggingface.co/datasets/afrihate/afrihate", // Example GitHub org
   },
   {
     id: 4,
