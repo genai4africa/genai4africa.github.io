@@ -53,7 +53,7 @@ export const skillData = [
   {
     id: 2,
     skill: <img src={afrisen} alt="Custom Icon" style={{ width: "50px", height: "60px" }} />,
-    name: "EthioLLM",
+    name: "AfriSenti",
     link: "https://huggingface.co/HausaNLP/AfriSenti", // Example GitHub org
   },
   {
