@@ -24,6 +24,7 @@ const navLinks = {
     { id: "2T", name: "About US", to: "About" },
     { id: "3T", name: "Models", to: "Skills" },
     { id: "4T", name: "Datasets", to: "Projects" },
+     { id: "4T", name: "Publication", to: "Projects" },
     { id: "5T", name: "Contact", to: "Contact" },
   ],
 };
